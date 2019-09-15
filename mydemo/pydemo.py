@@ -3,8 +3,10 @@ import os
 readme_data='''# pydemo
 ## PyPA
 [Python Packaging User Guide](https://packaging.python.org/)
+## Build
+`python setup.py build`
 ## Install
-`pip install pydemo`
+`python setup.py install`
 ## Usage
 ```
 import pydemo
